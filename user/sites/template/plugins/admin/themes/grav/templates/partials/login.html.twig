@@ -1,0 +1,17 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block page %}
+    <section id="admin-login" class="default-glow-shadow">
+        <h1>
+            {{ title }}
+        </h1>
+
+        {% include 'partials/messages.html.twig' %}
+
+        <form method="post" action="{{ base_url_relative }}">
+            {% block form %}{% endblock %}
+
+            {{ nonce_field('admin-form', 'admin-nonce') }}
+        </form>
+    </section>
+{% endblock %}
