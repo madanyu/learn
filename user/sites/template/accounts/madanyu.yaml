@@ -1,0 +1,11 @@
+email: madanyu.education@gmail.com
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Madanyu Education'
+title: 'Education Ninja'
+state: enabled
+hashed_password: $2y$10$E/xXk/xugHuQPw2i6t1b3.euGuXT1YuFj3hMyYmRhFqLgcwYEKe1.
